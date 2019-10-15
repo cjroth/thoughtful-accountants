@@ -1,0 +1,5 @@
+@relativeBorderRadius: 0px;
+@absoluteBorderRadius: 2px;
+@thumbBorderRadius: 0px;
+
+@solidBorderColor: transparent;
