@@ -20,14 +20,14 @@ class Header extends Component {
 		return (
 			<Menu className='app-header' size='huge'>
 				<Container fluid>
-					<Menu.Item as='a' header onClick={this.handleHomeClicked.bind(this)}>
+					{/* <Menu.Item as='a' header onClick={this.handleHomeClicked.bind(this)}>
 						<Button className='app-header-home' animated='fade'>
 							<Button.Content visible>MN</Button.Content>
 							<Button.Content hidden>
 								<Icon name='home' />
 							</Button.Content>
 						</Button>
-			        </Menu.Item>
+			        </Menu.Item> */}
 					<Menu.Item>
 						<form onSubmit={this.handleSearchSubmit.bind(this)}>
 							<Input
